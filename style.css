@@ -1,0 +1,172 @@
+
+
+body{
+    background-color: #c03d3d;
+}
+img{
+    cursor: pointer;
+}
+/* ----------------------------- NAVBAR ----------------------- */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5cc2a;
+}
+
+.navbar span{
+    background-color: #d7dada;
+    color: #c9cdcd;
+    width: 5px;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.vertically-adjust{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.middle-nav ul li{
+    padding: 12px 10px;
+    list-style-type: none;
+}
+.middle-nav ul a{
+    text-decoration: none;
+    color: #0c0202;
+    font-size: 16px;
+    font-weight: 700;
+}
+.middle-nav ul li:hover{
+    background-color: rgb(114, 222, 231);
+    color: #0c0202;
+}
+.navbar button:hover{
+    background-color: #f7fafa;
+    color: black;
+    border: 0;
+}
+.left-nav{
+    margin-left: 30px;
+}
+.right-nav{
+    margin-right: 30px;
+}
+
+
+/* ---------------------------- ROW ------------------------ */
+
+
+
+/* -------------------------ROW 1 ------------------------------- */
+
+.row-img img{
+    border-radius: 130px;
+    
+}
+
+
+.row-img img:hover{
+    border-radius: 0;
+}
+
+
+
+
+/* -----------footer---------- */
+
+.footer{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.footer .col-lg-8{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    padding-left: 15px;
+}
+.footer .col-lg-8 div{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 2rem;
+    padding-top: 12px;
+}
+.footer .col-lg-4 div{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 2rem;
+    padding-top: 12px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: #f5cc2a;
+}
+
+
+/* -------------------------HOME main page---------------------- */
+
+#showbtn:hover{
+    opacity: 1;
+    background-color: hsl(0, 60%, 99%);
+    border: 0;
+    outline: 0;
+    color: #4e4b4b;
+
+}
+
+.right-nav-icon .icon:hover{
+    background-color: #f6f2f2;
+    /* border-radius: 50px; */
+}
+
+
+/* ------------------------------ ORDER ---------------------------- */
+
+.navbar-order{
+    display: flex;
+    
+    align-items: center;
+    
+}
+.middle-nav-order{
+    margin-left: 100px;
+}
+
+.middle-nav-order ul{
+    display: flex;
+    padding: 12px 10px;
+    list-style-type: none;
+}
+.middle-nav-order ul a{
+    text-decoration: none;
+    color: #0c0202;
+    font-weight: 500;
+    
+}
+.middle-nav-order ul li{
+    margin-left: 25px;
+}
+
+#order-nav-btn{
+    border: #0c0202 2px solid;
+    border-radius: 25px;
+    margin-right: 0;
+}
+
+
+#order-nav-btn:hover{
+    background-color: aqua;
+}
+.date{
+    margin-top: -35px;
+}
